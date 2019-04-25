@@ -1,5 +1,10 @@
 
 package money;
 
-public class Dollar {
+class Dollar {
+    int amount;
+    Dollar(int amount) {
+    }
+    void times(int mutiplier) {
+    }
 }
