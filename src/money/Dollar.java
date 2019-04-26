@@ -7,6 +7,6 @@ class Dollar {
         this.amount = amount;
     }
     void times(int mutiplier) {
-        amount = 5 * 2;
+        amount = amount * 2;
     }
 }
