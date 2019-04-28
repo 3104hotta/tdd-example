@@ -2,7 +2,7 @@ package money;
 
 public class Franc {
     private int amount;
-    Franc(amount) {
+    Franc(int amount) {
         this.amount = amount;
     }
     Franc times(int multiplier) {
