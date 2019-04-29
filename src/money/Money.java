@@ -18,6 +18,9 @@ class Money {
         return amount == money.amount
                 && currency().equals(money.currency());
     }
+    Money plus (Money addend) {
+        return new Money (amount + addend.amount, currency);
+    }
     public String toString() {
         return amount + " " + currency;
     }
